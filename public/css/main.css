@@ -1,0 +1,43 @@
+body {
+    background-color: #d5d5d5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ui-datepicker-calendar {
+    display: none;
+}
+
+#preview{
+    width: 75%;
+    padding: 6vw;
+    aspect-ratio: 1/1;
+}
+
+#report {
+    width: 75%;
+    display: none;
+}
+
+.table-report {
+    width: 100%;
+    margin-bottom: 1.5vw;
+}
+
+.table-report th,
+.table-report td {
+    padding: 0.5vw; 
+}
+
+.item-list .card .card-body .card-title a {
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+
+/* @media (max-width: 768px) {
+    #report {
+        width: 90%;
+    }
+} */
